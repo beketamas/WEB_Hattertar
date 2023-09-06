@@ -1,0 +1,13 @@
+#keret{
+    text-align: center;
+    padding: 5px;
+    border: 5px red solid;
+    margin-top: 375px;
+    margin-left: 750px;
+    margin-right: 750px;
+    border-radius: 3%;
+    background-color: aqua;
+}
+body{
+    background-color: blanchedalmond;
+}

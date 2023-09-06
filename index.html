@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilus.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="keret">
+        <span>Kapacitás:</span>
+        <input type="text" id="kapacitas_">
+        <select name="" id="kapacitas_lista">
+            <option value="KB">KB</option>
+            <option value="MB">MB</option>
+            <option value="GB">GB</option>
+            <option value="TB">TB</option>
+        </select>
+        <br>
+        <span>Átviteli sebesség:</span>
+        <br>
+        <input type="range" min="10" max="5000" id="atviteli_csuszka" value="3200">
+        <select name="" id="atviteli_lista">
+            <option value="KBps">KBps</option>
+            <option value="MBps">MBps</option>
+            <option value="GBps">GBps</option>
+            <option value="TBps">TBps</option>
+        </select>
+        <br>
+        <button id="szamol" onclick="Szamol()">Számol</button>
+        <br>
+        <span id="Osszeg">0</span>
+        <span>sec</span>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+
+</html>
